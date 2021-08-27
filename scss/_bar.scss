@@ -1,0 +1,140 @@
+
+@import "_funciones.scss";
+
+
+body{
+    
+    background-color: #0E111B;
+    
+}
+
+
+
+
+/*main*/
+
+main{
+    margin-top: 70px;
+}
+
+
+.tituloMain{
+    color: #d5d5d5;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #FFA409;
+    
+}
+
+
+.tituloSeccion{
+    color: #D4D4D4;
+    font-family: 'Kanit', sans-serif;
+}
+
+.tarjeta__imagen{
+    width: 250px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 7px;
+    transition: 1s all ease;
+    cursor: pointer;
+}
+
+/*transicion*/
+
+.tarjeta__imagen:hover{
+    transform: scale(1.5)
+}
+
+
+.tarjetaBar{
+    
+    border-radius: 20px;
+    box-shadow: 0px 0px 39px -10px rgba(0, 0, 0, 0.70);
+    @include tamanio(300px,250px);
+}
+
+.tarjeta__descripcion{
+    color: #D4D4D4;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+
+.contenedorGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-row-gap: 40px;
+    
+    
+}
+
+
+
+/*responsive*/
+
+@media only screen and (min-width: 600px) {
+
+   
+
+    /*header*/
+
+    .header .logo{
+        width: 40px;
+        
+    }
+
+    h1{
+        color: #D4D4D4;
+        font-family: 'Kanit', sans-serif;
+        font-size: 30px;
+    }
+
+
+    .linkMenu a{
+        color: #111111;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 900;
+        font-family: 'Kanit', sans-serif;    
+    }
+
+    .menuHeader{
+        font-size: 25px;
+    }
+    /*menu desplegable*/
+
+    .contenedorMenu{
+        margin-right: 70px;
+    }
+
+    .navegacion{
+        display: none;
+        position: absolute;
+        background-color: #d5d5d5;
+        border-radius: 15px;
+        margin-right: 10px;
+        padding: 0 15px;
+        
+    }
+
+    /*main*/
+
+    main{
+        margin-top: 110px;
+    }
+
+    
+
+
+    .contenedorGrid{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        justify-items: center;
+        
+        
+    }
+
+}

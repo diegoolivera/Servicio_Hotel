@@ -1,0 +1,275 @@
+/*main*/
+
+main{
+    margin-top: 90px;
+}
+
+.tituloMain{
+    color: #d5d5d5;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #FFA409;
+}
+
+.descripcion{
+    color: #D4D4D4;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Sans-serif;
+    
+}
+
+.resaltadoVerde{
+    color: #1DA12A;
+}
+
+.resaltadoNaranja{
+    color: #FFA409;
+}
+
+/*formulario*/
+
+#contacto{
+    margin-top: 100px;
+}
+
+.formulario{
+    color: #d5d5d5;
+    padding: 0 ;
+    cursor: pointer;
+    
+    
+}
+
+.formulario legend{
+    font-size: 15px;
+    text-align: center;
+   
+}
+
+
+.contenedorCampo{
+    margin: 5px 0px 5px 5px;
+}
+
+.contenedorCampo textarea{
+    resize: none;
+}
+
+fieldset{
+    width: 240px;
+}
+
+.campoPersonal{
+   padding: 3px 3px 2px 0;
+   border-radius: 7px;
+   outline: none;
+   font-family: 'Heebo', sans-serif;
+   font-size: 15px;
+   font-weight: 900;
+   color: #FFA409;
+   background-color: #0E111B;
+}
+
+.contenedorCampo label{
+    font-size: 15px;
+}
+
+.selector{
+    padding: 5px 0;
+    font-size: 15px;
+    background-color: #0E111B;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    color: #c0bab0;
+}
+
+.selector option{
+    color: #FFA409;
+    font-weight: 900;
+}
+
+.contenedorCampo textarea{
+    background-color: #0E111B;
+    font-size: 10px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 900;
+    color: #c0bab0;
+    outline: none;
+    color: #FFA409;
+}
+
+.botonesForm{
+    margin: 5px 0 5px 29px;
+    display: inline;
+   
+}
+
+.botonesForm .btnActivo{
+    background-color: #1DA12A;
+    color: #d5d5d5;
+    border: none;
+    margin-right: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.botonesForm .btnSecundario{
+    background-color: rgb(126, 22, 22);
+    color: #d5d5d5;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Heebo', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: #c0bab0;
+    font-size: 15px;
+    font-family: 'Heebo', sans-serif; 
+    padding-left: 10px;
+}
+.formulario legend:hover{
+    color: #ff2424
+}
+
+.btnActivo:hover{
+    background-color: rgba(250, 250, 250, 0.05);
+}
+
+.btnSecundario:hover{
+    background-color: rgba(250, 250, 250, 0.05);
+}
+
+
+/*responsive*/
+
+
+@media only screen and (min-width: 600px) {
+
+    
+    /*header*/
+
+    .header .logo{
+        width: 40px;
+        
+    }
+
+    h1{
+        color: #D4D4D4;
+        font-family: 'Kanit', sans-serif;
+        font-size: 30px;
+    }
+
+    .linkMenu a{
+        color: #111111;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 900;
+        font-family: 'Kanit', sans-serif;    
+    }
+
+    .menuHeader{
+        font-size: 25px;
+    }
+    /*menu desplegable*/
+
+    .contenedorMenu{
+        margin-right: 70px;
+    }
+
+    .navegacion{
+        display: none;
+        position: absolute;
+        background-color: #d5d5d5;
+        border-radius: 15px;
+        margin-right: 10px;
+        padding: 0 15px;
+        
+    }
+
+    /*main*/
+
+    main{
+        margin-top: 150px;
+    }
+
+    /*formulario*/
+
+    .formulario{
+        color: #d5d5d5;
+        padding: 0 40px;
+        
+    }
+    .formulario legend{
+        font-size: 30px;
+        text-align: center;
+       
+    }
+
+    fieldset{
+        width: 500px;
+    }
+
+    .contenedorCampo{
+        margin: 20px 0 10px 30px;
+    }
+
+    .campoPersonal{
+        padding: 10px 10px 5px 0;
+        border-radius: 7px;
+        outline: none;
+        font-family: 'Heebo', sans-serif;
+        font-size: 20px;
+        font-weight: 900;
+        color: #FFA409;
+        background-color: #0E111B;
+    }
+
+    .contenedorCampo label{
+        font-size: 20px;
+    }
+
+    .selector{
+        padding: 10px 0;
+        font-size: 20px;
+        background-color: #0E111B;
+        border-radius: 5px;
+        outline: none;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 900;
+        color: #c0bab0;
+    }
+
+    .contenedorCampo textarea{
+        background-color: #0E111B;
+        font-size: 20px;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 900;
+        color: #c0bab0;
+        outline: none;
+        color: #FFA409;
+    }
+
+    .botonesForm{
+        margin: 20px 0 10px 80px;
+       
+    }
+
+    ::placeholder{
+        color: #c0bab0;
+        font-size: 20px;
+        font-family: 'Heebo', sans-serif; 
+        padding-left: 10px;
+    }
+}

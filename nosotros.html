@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--seo-->
+    <meta name="description" content="somos el servicio de hotel del hotel watson,tenemos la mejor atencion y los mejores productos">
+    <meta name="keywords" content="nosotros,hotel,servicio,bar,kiosco">
+    <!--css-->
+    <link rel="stylesheet" href="styles/index.css">
+    <!--fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200&display=swap" rel="stylesheet">
+
+    <title> Servicio Hotel-Nosotros</title>
+</head>
+<body>
+
+    <!--header-->
+    <header class="header">
+        <a href="index.html"> 
+            <h1><img  class="logo" src="/img/logos/logo.png" alt="logoServicioHotel"> Servicio Hotel</h1>
+        </a>
+
+        <!--menu desplegable-->
+        <div class="contenedorMenu"> 
+            <span class="menuHeader">Menu</span>
+            <nav class="navegacion">
+                <ul class="linkMenu">
+                    <li><a href="horarios.html">Horarios Atencion</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+        </div>
+  </header>
+    
+    <!--main-->
+
+    <main>
+        <h2 class="tituloMain">Nosotros</h2>
+        <!-- descripcion-->
+        <p class="descripcion">Somos una cantina que vendemos comidas y bebidas dentro del hotel watson, 
+            contamos con las mejores comidas preparada por los mas capacitados cheef y 
+            con las mejores golosinas importadas desde estados unidos.
+            Mira nuestros productos contactate con nosotros atravez del <span class="resaltadoVerde">Telefono</span> de la cantina o por medio
+            de nuestro <span class="resaltadoVerde">Whatsapp</span>, Pedinos lo que quieras y <span class="resaltadoNaranja">te lo llevamos hasta tu Habitacion.</span>
+        </p>
+
+
+        <section id="contacto">
+            <!--formulario de contacto-->
+            <form class="formulario">
+                <fieldset>
+                    <legend>Duda o Inconveniente contactanos</legend>
+
+                    <!--informacion del cliente-->
+                    
+                    <div class="contenedorCampo">
+                        <input class="campoPersonal" type="text" name="nombre" placeholder="Nombre"> 
+                    </div>
+                    
+                    <div class="contenedorCampo">
+                        <input maxlength="20" class="campoPersonal" type="number" name="telefono" placeholder="Telefono"> 
+                    </div>  
+
+                    <div class="contenedorCampo">
+                        <label for="hospedado">Hospedado Actualmente?
+                            si <input  type="checkbox" name="hospedado" value="1" >
+                            no <input  type="checkbox" name="noHospedado" value="2" >
+                        </label>
+                    </div>
+            
+                    <!--espacio para consulta-->
+
+                    <select class=" contenedorCampo selector" name="rcontacto">
+                        <option value="">Razon</option>
+                        <option value="Consulta">Consulta</option>
+                        <option value="Inconveniente">Inconveniente</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                   
+                    <div class="contenedorCampo">
+                        <textarea name="consulta"  cols="30" rows="10" placeholder="Contanos Aca.."> </textarea>
+                    </div>
+
+                    <!--botones-->
+                    <div  class="botonesForm contenedorCampo">
+                        <input class="btnActivo" type="submit" value="Enviar">
+                        <input class="btnSecundario" type="reset" value="Borrar">
+                    </div>
+
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

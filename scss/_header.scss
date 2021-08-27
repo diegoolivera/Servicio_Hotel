@@ -1,0 +1,90 @@
+/*header*/
+
+.header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0E111B;
+    box-shadow: 0 10px 31px -10px rgba(0,0,0,0.75); 
+  }
+  
+  
+  
+  h1{
+    color: #D4D4D4;
+    font-family: 'Kanit', sans-serif;
+    font-size: 20px;
+    
+  }
+  
+  
+  
+  .header a {
+    text-decoration: none;
+  }
+  
+  .header .logo{
+    width: 30px;
+    
+  }
+  
+  .menuHeader{
+    margin-bottom: 5px;
+    color:#FFA409;
+    font-family: 'Kanit', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+  }
+  
+  .linkMenu a{
+    color: #111111;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 900;
+    font-family: 'Kanit', sans-serif;    
+  }
+  
+  .linkMenu li{
+    padding: 5px;
+    text-align: center;
+  }
+  
+  
+  
+  /*menu desplegable*/
+  
+  .contenedorMenu{
+    margin-right: 35px;
+  }
+  .menuHeader{
+    
+    padding-right: 0;
+    position: relative;
+    
+   
+  }
+  
+  .navegacion{
+    display: none;
+    position: absolute;
+    background-color: #d5d5d5;
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 0 8px;
+    
+  
+  }
+  
+  .contenedorMenu:hover .navegacion{
+    display: block;
+  }
+  
+  
+  ul{
+    list-style: none;
+    padding: 0;
+  }
