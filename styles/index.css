@@ -226,17 +226,21 @@ main {
 /*main*/
 main {
   margin-top: 100px; }
-
-.tituloMain {
-  color: #d5d5d5;
-  text-align: center;
-  font-size: 30px;
-  text-decoration: underline;
-  text-decoration-color: #FFA409; }
+  main .tituloMain {
+    color: #d5d5d5;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #FFA409; }
 
 .tituloSeccion {
   color: #D4D4D4;
   font-family: 'Kanit', sans-serif; }
+
+.contenedorGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center; }
 
 .imagenDesayuno {
   width: 250px;
@@ -244,11 +248,10 @@ main {
   margin-left: 20px;
   border-radius: 7px;
   transition: 1s all ease;
-  cursor: pointer; }
-
-/*transicion*/
-.imagenDesayuno:hover {
-  transform: scale(1.5); }
+  cursor: pointer;
+  /*transicion*/ }
+  .imagenDesayuno:hover {
+    transform: scale(1.5); }
 
 .tarjetaKiosco {
   border-radius: 20px;
@@ -261,11 +264,6 @@ main {
   color: #D4D4D4;
   font-family: 'Kanit', sans-serif;
   text-align: center; }
-
-.contenedorGrid {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center; }
 
 /*responsive*/
 @media only screen and (min-width: 600px) {
