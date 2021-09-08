@@ -1,7 +1,5 @@
 
 
-
-
 /*main*/
 
 #horario{
@@ -28,7 +26,23 @@
     @include tamanio(90%,200px);
     text-align: center;
     
-     
+    th{
+        background-color: #9fbaec;
+        color: #0E111B;
+        font-family:cursive;
+        font-weight: 900;
+    }
+
+    td{
+        font-family: monospace;
+        font-size: 15px;
+    }
+
+    .inactivo:hover{
+        background-color: #ff2424;
+        color: #D4D4D4;
+    }
+    
 }
 
 .tabla{
@@ -36,22 +50,9 @@
 }
 
 
-.tablaAux tr th{
-    background-color: #9fbaec;
-    color: #0E111B;
-    font-family:cursive;
-    font-weight: 900;
-}
 
-.tablaAux td{
-    font-family: monospace;
-    font-size: 15px;
-}
 
-.tablaAux .inactivo:hover{
-    background-color: #ff2424;
-    color: #D4D4D4;
-}
+
 
 
 /*responsive*/
@@ -62,9 +63,11 @@
    
     /*header*/
 
-    .header .logo{
-        width: 40px;
+    .header{ 
         
+        .logo{
+            width: 40px;
+        }
     }
 
     h1{
@@ -84,6 +87,7 @@
     .menuHeader{
         font-size: 25px;
     }
+
     /*menu desplegable*/
 
     .contenedorMenu{
@@ -113,28 +117,27 @@
         color: #D4D4D4;
         @include tamanio(90%,200px);
         text-align: center;
+
+        th{
+            background-color: #9fbaec;
+            color: #0E111B;
+            font-family:cursive;
+            font-weight: 900;
+        }
+
+        td{
+            font-family: monospace;
+            font-size: 15px;
+        }
+
+        .inactivo:hover{
+            background-color: #ff2424;
+            color: #D4D4D4;
+        }
+    
     }
 
     .tablaAux{
         display: none;
     }
-
-    .tabla tr th{
-        background-color: #9fbaec;
-        color: #0E111B;
-        font-family:cursive;
-        font-weight: 900;
-    }
-    
-    .tabla td{
-        font-family: monospace;
-        font-size: 15px;
-    }
-    
-    .tabla .inactivo:hover{
-        background-color: #ff2424;
-        color: #D4D4D4;
-    }
-
-
 }

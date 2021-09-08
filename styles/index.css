@@ -157,23 +157,20 @@ main {
   width: 90%;
   height: 200px;
   text-align: center; }
+  .tablaAux th {
+    background-color: #9fbaec;
+    color: #0E111B;
+    font-family: cursive;
+    font-weight: 900; }
+  .tablaAux td {
+    font-family: monospace;
+    font-size: 15px; }
+  .tablaAux .inactivo:hover {
+    background-color: #ff2424;
+    color: #D4D4D4; }
 
 .tabla {
   display: none; }
-
-.tablaAux tr th {
-  background-color: #9fbaec;
-  color: #0E111B;
-  font-family: cursive;
-  font-weight: 900; }
-
-.tablaAux td {
-  font-family: monospace;
-  font-size: 15px; }
-
-.tablaAux .inactivo:hover {
-  background-color: #ff2424;
-  color: #D4D4D4; }
 
 /*responsive*/
 @media only screen and (min-width: 680px) {
@@ -212,19 +209,19 @@ main {
     width: 90%;
     height: 200px;
     text-align: center; }
+    .tabla th {
+      background-color: #9fbaec;
+      color: #0E111B;
+      font-family: cursive;
+      font-weight: 900; }
+    .tabla td {
+      font-family: monospace;
+      font-size: 15px; }
+    .tabla .inactivo:hover {
+      background-color: #ff2424;
+      color: #D4D4D4; }
   .tablaAux {
-    display: none; }
-  .tabla tr th {
-    background-color: #9fbaec;
-    color: #0E111B;
-    font-family: cursive;
-    font-weight: 900; }
-  .tabla td {
-    font-family: monospace;
-    font-size: 15px; }
-  .tabla .inactivo:hover {
-    background-color: #ff2424;
-    color: #D4D4D4; } }
+    display: none; } }
 
 /*main*/
 main {
