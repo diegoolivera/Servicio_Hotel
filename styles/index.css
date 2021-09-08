@@ -563,7 +563,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style: none; }
+    list-style: none;
+    margin-bottom: 0; }
     .footer .linkMenu li {
       padding: 10px; }
 
