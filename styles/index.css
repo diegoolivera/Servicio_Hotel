@@ -303,38 +303,35 @@ main {
 /*main*/
 main {
   margin-top: 90px; }
-
-.tituloMain {
-  color: #d5d5d5;
-  text-align: center;
-  font-size: 30px;
-  text-decoration: underline;
-  text-decoration-color: #FFA409; }
-
-.descripcion {
-  color: #D4D4D4;
-  font-size: 18px;
-  line-height: 1.5;
-  font-family: Sans-serif; }
-
-.resaltadoVerde {
-  color: #1DA12A; }
-
-.resaltadoNaranja {
-  color: #FFA409; }
+  main .tituloMain {
+    color: #d5d5d5;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #FFA409; }
+  main .descripcion {
+    color: #D4D4D4;
+    font-size: 18px;
+    line-height: 1.5;
+    font-family: Sans-serif; }
+    main .descripcion .resaltadoVerde {
+      color: #1DA12A; }
+    main .descripcion .resaltadoNaranja {
+      color: #FFA409; }
 
 /*formulario*/
 #contacto {
   margin-top: 100px; }
-
-.formulario {
-  color: #d5d5d5;
-  padding: 0;
-  cursor: pointer; }
+  #contacto .formulario {
+    color: #d5d5d5;
+    padding: 0; }
 
 .formulario legend {
   font-size: 15px;
   text-align: center; }
+
+.formulario legend:hover {
+  color: #ff2424; }
 
 .contenedorCampo {
   margin: 5px 0px 5px 5px; }
@@ -367,10 +364,9 @@ fieldset {
   font-family: 'Heebo', sans-serif;
   font-weight: 900;
   color: #c0bab0; }
-
-.selector option {
-  color: #FFA409;
-  font-weight: 900; }
+  .selector option {
+    color: #FFA409;
+    font-weight: 900; }
 
 .contenedorCampo textarea {
   background-color: #0E111B;
@@ -414,9 +410,6 @@ fieldset {
   font-family: 'Heebo', sans-serif;
   padding-left: 10px; }
 
-.formulario legend:hover {
-  color: #ff2424; }
-
 .btnActivo:hover {
   background-color: rgba(250, 250, 250, 0.05); }
 
@@ -438,18 +431,18 @@ fieldset {
     font-size: 20px;
     font-weight: 900;
     font-family: 'Kanit', sans-serif; }
-  .menuHeader {
-    font-size: 25px; }
   /*menu desplegable*/
   .contenedorMenu {
     margin-right: 70px; }
-  .navegacion {
-    display: none;
-    position: absolute;
-    background-color: #d5d5d5;
-    border-radius: 15px;
-    margin-right: 10px;
-    padding: 0 15px; }
+    .contenedorMenu .menuHeader {
+      font-size: 25px; }
+      .contenedorMenu .menuHeader .navegacion {
+        display: none;
+        position: absolute;
+        background-color: #d5d5d5;
+        border-radius: 15px;
+        margin-right: 10px;
+        padding: 0 15px; }
   /*main*/
   main {
     margin-top: 150px; }
