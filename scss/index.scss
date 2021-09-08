@@ -10,9 +10,8 @@
 body{
   background-color: #0E111B;
 }
-  
-  
-  
+
+
 /*main*/
 
 .main{
@@ -104,32 +103,41 @@ body{
   box-shadow: 0 -10px 31px -10px rgba(0,0,0,0.75);
   height: 100px;
   width: 100%;
-    
-  .linkMenu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  }
-
-  .linkMenu li{
-    padding: 10px;  
-  }
-
-  span{
-    color:#F9F9F9 ;
-    font-family: 'Heebo', sans-serif;
-  }
+  text-decoration: none;
 
   p {
     color: #eef0f6;
+    
   }
 
   .logoFooter{
     width: 30px;
   }
+
+
+
+  .linkMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    
+
+    li{
+      padding: 10px; 
+      
+    }
+  }
+
     
 }
+
+
+
+
+
+
+
   
   
   
@@ -144,10 +152,12 @@ body{
   
     /*header*/
   
-    .header .logo{
+    .header{
+      .logo{
         width: 40px;
         
     }
+    } 
   
     h1{
       color: #D4D4D4;
@@ -155,13 +165,16 @@ body{
       font-size: 30px;
     }
   
-    .linkMenu a{
+    
+
+    .linkMenu {
       color: #111111;
-      text-decoration: none;
       font-size: 20px;
       font-weight: 900;
-      font-family: 'Kanit', sans-serif;    
+      font-family: 'Kanit', sans-serif;
+          
     }
+
   
     .menuHeader{
       font-size: 25px;
@@ -180,8 +193,7 @@ body{
       border-radius: 15px;
       margin-right: 10px;
       padding: 0 15px;
-        
-    
+      
     }
   
   
@@ -207,6 +219,8 @@ body{
     
       }
     }
+
+  
    
 }
 
