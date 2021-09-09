@@ -4,6 +4,7 @@
 @import "_kiosco.scss";
 @import "_nosotros.scss";
 @import "_funciones.scss";
+@import "_error.scss";
 
 
 
@@ -153,7 +154,7 @@ body{
    
 /*responsive*/
   
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width:400px) {
   
     /*header*/
   

@@ -497,6 +497,29 @@ fieldset {
 body {
   background-color: #0E111B; }
 
+.contenedorError {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 70px; }
+  .contenedorError .logoError {
+    width: 250px; }
+  .contenedorError .botonVolver {
+    margin-top: 50px;
+    padding: 20px 40px;
+    background-color: #ffe4c4;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #0E111B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    .contenedorError .botonVolver:hover {
+      background-color: #f1f8cf; }
+
+body {
+  background-color: #0E111B; }
+
 /*main*/
 .main {
   margin-top: 55px; }
