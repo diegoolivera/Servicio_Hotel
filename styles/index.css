@@ -494,9 +494,6 @@ fieldset {
     font-family: 'Heebo', sans-serif;
     padding-left: 10px; } }
 
-body {
-  background-color: #0E111B; }
-
 .contenedorError {
   display: flex;
   flex-direction: column;
@@ -515,7 +512,7 @@ body {
     color: #0E111B;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
     .contenedorError .botonVolver:hover {
-      background-color: #f1f8cf; }
+      background-color: #f0f6d1; }
 
 body {
   background-color: #0E111B; }
