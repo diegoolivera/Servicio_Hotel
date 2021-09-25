@@ -1,5 +1,5 @@
 # Servicio_Hotel
-Proyecto de desarrollo web en CoderHouse
+Proyecto Final del curso de desarrollo web en CoderHouse
 <br>
 <br>
 
