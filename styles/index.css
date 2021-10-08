@@ -566,7 +566,9 @@ body {
     text-decoration: none;
     font-family: 'Heebo', sans-serif; }
   .tarjeta .contenedorBoton {
-    margin: 55px 30px 10px 30px; }
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
 
 /*footer*/
 .footer {
@@ -634,3 +636,31 @@ body {
   .footer {
     position: absolute;
     bottom: 0; } }
+
+@media only screen and (min-width: 1000px) {
+  .tarjeta {
+    width: 500px;
+    height: 400px;
+    margin-top: 30px; }
+    .tarjeta .logoTarjeta {
+      width: 70px;
+      margin-right: 20px; }
+    .tarjeta .tituloTarjeta {
+      color: #D4D4D4;
+      font-size: 37px;
+      margin-left: 15px;
+      padding-top: 15px; }
+    .tarjeta .textoTarjeta {
+      color: #F9F9F9;
+      font-family: 'Heebo', sans-serif;
+      margin-left: 15px;
+      font-size: 25px; }
+    .tarjeta .botonTarjeta {
+      background-color: #383648;
+      padding: 10px 150px;
+      border-radius: 15px;
+      text-align: center;
+      color: #FFA409;
+      font-weight: 900;
+      text-decoration: none;
+      font-family: 'Heebo', sans-serif; } }
